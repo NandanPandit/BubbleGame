@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bubble game</title>
+    <link rel="stylesheet" href="bubbleGame.css" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <h1 style="text-align: center; background-color: #c1d1c7; padding-top: 10px;">Bubble Game</h1>
+    <div class="mainContainer">
+      <div class="boxContainer">
+        <div class="headline">
+          <div class="box">
+            <h4>Match the number : </h4>
+            <div class="input" id="matchTheNumber"></div>
+          </div>
+          <div class="box">
+            <h4>Time</h4>
+            <div class="input" id="Time"></div>
+          </div>
+          <div class="box">
+            <h4>Total Score</h4>
+            <div class="input" id="incrScore">0</div>
+          </div>
+        </div>
+        <!-- this is circle bubble and insert javaScript dom bubble -->
+        <div class="bubble"></div>
+      </div>
+    </div>
+    <!-- js file link -->
+    <script src="bubbleGame.js"></script>
+  </body>
+</html>
